@@ -1,18 +1,21 @@
-#################################################################################
-# SciKit-Learn based breast cancer class categorizing algorithm                 #
-#                                                                               #
-# This example k-nearest neighbor algorithm categorize the class of            #
-# breast cancer test results with the trained model from hundreds of data sets  #
-#                                                                               #
-# What do we use here,                                                          #
-#                                                                               #
-# numpy                  - to build data in array format which is feasible to   #
-#                          apply machine learning model                         #
-# pandas                 - to read data set from a CSV file                     #
-# sklearn (scikit-learn) - to use existing KNeighborsClassifier algorithm       #
-#                          and to pre-process data set                          #
-#                                                                               #
-#################################################################################
+##################################################################################
+# SciKit-Learn based breast cancer class categorization algorithm                #
+#                                                                                #
+# This example k-nearest neighbor algorithm categorize the class of              #
+# breast cancer test results with the trained model from hundreds of data sets   #
+#                                                                                #
+# What do we use here,                                                           #
+#                                                                                #
+# numpy                  - to build data in array format which is feasible to    #
+#                          apply machine learning model                          #
+# pandas                 - to read data set from a CSV file                      #
+# sklearn (scikit-learn) - to use existing KNeighborsClassifier algorithm        #
+#                          and to pre-process data set                           #
+#                                                                                #
+# The data set we use here is from University of California for learning purpose #
+# The last field says the class: 2 for Benign and 4 for Malignant                #
+#                                                                                #
+##################################################################################
 
 import numpy as np
 import pandas as pandas
